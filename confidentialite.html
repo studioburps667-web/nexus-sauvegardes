@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Confidentialité — Nexus Sauvegardes</title>
+<style>body{font:18px/1.6 system-ui,sans-serif;max-width:740px;margin:70px auto;padding:0 24px;color:#172636;background:#f7f9fc}h1{line-height:1.2}a{color:#1559aa}main{background:white;padding:32px;border-radius:14px}small{color:#526171}</style>
+<main><a href="index.html">Nexus Sauvegardes</a><h1>Confidentialité</h1>
+<p>Cet outil personnel sert exclusivement à transférer et vérifier les sauvegardes chiffrées du propriétaire du compte dans Google Drive. Il ne s’adresse pas au public et n’inscrit pas d’autres utilisateurs.</p>
+<h2>Accès à Google Drive</h2>
+<p>L’autorisation demandée est <code>https://www.googleapis.com/auth/drive.file</code>. Elle permet de créer, lire, modifier et supprimer les fichiers créés par l’application ou explicitement partagés avec elle. La configuration de sauvegarde limite ses opérations à son dossier dédié. Les autres documents du compte ne sont pas inventoriés par l’outil.</p>
+<h2>Données utilisées et stockage</h2>
+<p>Google Drive reçoit les archives déjà chiffrées ainsi que leur nom, leur taille et leurs dates. L’outil utilise les identifiants de ses propres fichiers pour contrôler les copies et appliquer la conservation. Les autorisations de connexion sont conservées dans un fichier protégé sur le VPS du propriétaire, afin de renouveler l’accès sans connexion manuelle à chaque copie. Les journaux de l’outil ne contiennent pas ces autorisations ni le contenu déchiffré des sauvegardes.</p>
+<p>Les transferts utilisent les connexions sécurisées des services Google. La copie chiffrée est relue intégralement pour en vérifier l’intégrité. Les archives sont hébergées sur le serveur choisi par le propriétaire et dans son Google Drive ; elles ne sont pas publiées sur ce site.</p>
+<h2>Utilisation et conservation</h2>
+<p>Les données Google sont utilisées uniquement pour la sauvegarde, sa vérification et sa conservation. L’outil ne les vend pas, ne les utilise pas pour la publicité et ne les transmet à aucun modèle d’IA. Il ne comporte aucune fonction d’entraînement de modèles. Son utilisation des données reçues des API Google respecte les exigences d’utilisation limitée de la <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>.</p>
+<p>La configuration prévue conserve les trois dernières archives dans le dossier géré par l’outil. Les anciennes archives gérées sont supprimées après vérification d’une nouvelle copie. Les sauvegardes historiques situées ailleurs ne sont pas concernées.</p>
+<h2>Contrôle par le propriétaire</h2>
+<p>Le propriétaire peut retirer l’accès dans les paramètres des connexions de son compte Google. Cela arrête les futures opérations autorisées ; les archives existantes restent sous son contrôle dans Drive et peuvent y être supprimées. Il peut également retirer la configuration de connexion sur son VPS.</p>
+<h2>Ce site et contact</h2>
+<p>Ces pages statiques ne contiennent ni formulaire, ni publicité, ni outil de mesure d’audience ajouté par Nexus Sauvegardes. Leur hébergeur, GitHub Pages, traite les informations techniques de visite selon sa propre politique de confidentialité.</p>
+<p><a href="https://github.com/studioburps667-web/nexus-sauvegardes/issues">Contacter le responsable</a>. N’envoyez jamais de mot de passe, de jeton ni de contenu de sauvegarde dans un message public.</p>
+<small>Version du 18 octobre 2026.</small></main></html>
